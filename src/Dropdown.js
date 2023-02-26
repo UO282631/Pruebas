@@ -1,11 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import {
-  dropdown_wrapper,
+import {dropdown_wrapper, 
   dropdown_activator,
   dropdown_item_list,
   active,
   item_list
-} from "./dropdown.module.css";
+}  from "./dropdown.module.css";
 
 function Dropdown({ items = [], dropdownTitle }) {
   const activatorRef = useRef(null);
